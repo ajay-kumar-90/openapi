@@ -1,0 +1,16 @@
+openapi: 3.0.3
+info:
+  title: Learn Open API Specification
+  description: |
+    Using this Open API specification, any consumer
+     can understand the APIs.
+  termsOfService: www.google.com/terms/
+  contact:
+    name: Ajay Kumar
+    url: https://www.ajaycodes/support
+    email: ajaykumar@support.com
+  license: 
+    name: ajaycodes License
+    url: www.ajaycodes.com/licenses/LICENSE-2.0.html 
+  version: 0.0.1
+paths: {}
