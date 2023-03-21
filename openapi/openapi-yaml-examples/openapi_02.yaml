@@ -13,4 +13,21 @@ info:
     name: ajaycodes License
     url: www.ajaycodes.com/licenses/LICENSE-2.0.html 
   version: 0.0.1
+servers:
+  - url: https://development.ajaycodes.com/v1
+    description: Devlelopment Server
+  - url: https://staging.ajaycodes.com/v1
+    description: Staging Server
+  - url: https://api.{username}.ajaycodes.com/v1:{port}/{version}
+    variables:
+      username: 
+        default: demo
+        description: This value is assigned by the service provider
+      port: 
+        enum: 
+          - "8443"
+          - "443"
+        default: "8443"
+      version: 
+        default: v1
 paths: {}
